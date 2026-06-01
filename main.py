@@ -6,7 +6,7 @@ import os
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
-MAX_THREADS = 60  
+MAX_THREADS = 60  #customize thread by how many you have a api key.
 
 def get_api_keys():
     if os.path.exists("config.txt"):
