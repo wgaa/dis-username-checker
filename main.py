@@ -38,7 +38,7 @@ def save_log(username, status, id_type):
 
 def check_username(username, api_key, id_type):
     url = "https://discord.com/api/v9/unique-username/username-attempt-unauthed"
-    scraperapi_url = f"http://api.scraperapi.com?api_key={api_key}&url={requests.utils.quote(url, safe='')}&residential=true"
+    scraperapi_url = f"http://api.scraperapi.com?api_key={api_key}&url={requests.utils.quote(url, safe='')}&residential=true" # if you put &residential=true, you will lost your key so fast
     
     try:
         start_time = time.perf_counter()
