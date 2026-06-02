@@ -94,7 +94,7 @@ def main():
 
     print("username checker:")
     print("1 | 2 | 3 | 4")
-    print("1:4l | 2:5n | 3:country | 4:words")
+    print("1: 4l | 2: 5n | 3: country | 4: words")
     choice = input("select option 1, 2, 3, or 4: ").strip()
 
     if choice == "1":
